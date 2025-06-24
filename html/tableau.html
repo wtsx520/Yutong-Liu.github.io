@@ -4,43 +4,179 @@
     <head>
         <title>YuTong Liu - Tableau Dashboard</title>
         <link href="../styles/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="../index.html">
-        <link href="about.html">
+        <!-- 修正：link 标签需要正确的 rel 属性，这里推测可能是导航链接，改为正确形式 -->
+        <link href="../index.html" rel="canonical">
+        <link href="./about.html" rel="canonical">
     </head>
-
     <body>
-        <div class="common header"> <p></p>
+        <header class="header">
             <a href="../index.html">Home</a> |
             <a href="./about.html">About Me</a> |
             <a href="#">Tableau</a>
-        </div>
+        </header>
         <br>
         <p>&nbsp;</p>
         <h2 class="tabtitle">Tableau Dashboard</h2>
-
-        <div class="quad1">
-            
+        <div class="tableau-container">
+            <div class="tableau-chart">
+                <figure>
+                    <div class='tableauPlaceholder' id='viz1750744581685'
+                        style='position: relative'>
+                        <noscript><a href='#'><img alt='Profit in 50 States '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Profitin50States_17507357414240&#47;Profitin50States&#47;1_rss.png'
+                                    style='border: none' /></a></noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url'
+                                value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value />
+                            <param name='name'
+                                value='Profitin50States_17507357414240&#47;Profitin50States' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Profitin50States_17507357414240&#47;Profitin50States&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='zh-CN' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1750744581685');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width='100%';
+                        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                    <figcaption>Profit in 50 States</figcaption>
+                </figure>
+            </div>
+            <div class="tableau-chart">
+                <!-- 插入第二个Tableau仪表板 -->
+                <figure>
+                    <div class='tableauPlaceholder' id='viz1750744654092'
+                        style='position: relative'>
+                        <noscript><a href='#'><img
+                                    alt='California Profit (Past 2 Years) '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniaProfitPast2Years_17507356572920&#47;CaliforniaProfitPast2Years&#47;1_rss.png'
+                                    style='border: none' /></a></noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url'
+                                value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value />
+                            <param name='name'
+                                value='CaliforniaProfitPast2Years_17507356572920&#47;CaliforniaProfitPast2Years' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniaProfitPast2Years_17507356572920&#47;CaliforniaProfitPast2Years&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='zh-CN' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1750744654092');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width='100%';
+                        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                    <figcaption>California Profit (Past 2 Years)</figcaption>
+                </figure>
+            </div>
+            <div class="tableau-chart">
+                <!-- 插入第三个Tableau仪表板 -->
+                <figure>
+                    <div class='tableauPlaceholder' id='viz1750744751779'
+                        style='position: relative'>
+                        <noscript><a href='#'><img
+                                    alt='California Profits by Product Category '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniaProfitsbyProductCategory_17507357665650&#47;CaliforniaProfitsbyProductCategory&#47;1_rss.png'
+                                    style='border: none' /></a></noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url'
+                                value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value />
+                            <param name='name'
+                                value='CaliforniaProfitsbyProductCategory_17507357665650&#47;CaliforniaProfitsbyProductCategory' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniaProfitsbyProductCategory_17507357665650&#47;CaliforniaProfitsbyProductCategory&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='zh-CN' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1750744751779');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width='100%';
+                        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                    <figcaption>California Profits by Product
+                        Category</figcaption>
+                </figure>
+            </div>
+            <div class="tableau-chart">
+                <!-- 插入第四个Tableau仪表板 -->
+                <figure>
+                    <div class='tableauPlaceholder' id='viz1750745212481'
+                        style='position: relative'><noscript><a href='#'><img
+                                    alt='New York Technology Sales Forecast '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkTechnologySalesForecast_17507445199320&#47;NewYorkTechnologySalesForecast&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object
+                            class='tableauViz' style='display:none;'><param
+                                name='host_url'
+                                value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' /> <param
+                                name='site_root' value /><param name='name'
+                                value='NewYorkTechnologySalesForecast_17507445199320&#47;NewYorkTechnologySalesForecast' /><param
+                                name='tabs' value='no' /><param name='toolbar'
+                                value='yes' /><param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkTechnologySalesForecast_17507445199320&#47;NewYorkTechnologySalesForecast&#47;1.png' />
+                            <param name='animate_transition'
+                                value='yes' /><param
+                                name='display_static_image' value='yes' /><param
+                                name='display_spinner' value='yes' /><param
+                                name='display_overlay' value='yes' /><param
+                                name='display_count' value='yes' /><param
+                                name='language' value='zh-CN' /></object></div>
+                    <script type='text/javascript'>                 
+                   var divElement = document.getElementById('viz1750745212481');            
+                   var vizElement = divElement.getElementsByTagName('object')[0];         
+                   vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';  
+                    var scriptElement = document.createElement('script');       
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';             
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);              
+                    </script>
+                    <figcaption>New York Technology Sales Forecast</figcaption>
+                </figure>
+            </div>
         </div>
-
-        <div class="quad2">
-
-        </div>
-
-        <div class="quad3">
-
-        </div>
-
-        <div class="quad4">
-
-        </div>
-    </body>
-
-    <footer>
         <footer class="footer text-faded text-center py-5" id="Myfooter">
             <div class="container">
                 <p class="m-0 small">Copyright &copy; | YuTong Liu 2025</p>
             </div>
         </footer>
-    </footer>
-
+    </body>
 </html>
